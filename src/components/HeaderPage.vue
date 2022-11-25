@@ -39,7 +39,7 @@ export default {
       width: 5%;
     }
     nav {
-      height: 3rem;
+      height: 2rem;
       ul {
         display: flex;
         justify-content: center;

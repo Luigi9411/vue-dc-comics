@@ -43,7 +43,7 @@ export default {
     div{
       background-color:black ;
       .container {
-        height: 6em;
+        height: 5em;
         max-width: 1100px;
         display: flex;
         align-items: center;
@@ -52,12 +52,12 @@ export default {
       }
     }
     .list {
-      height: 8em;
+      height: 6em;
       background-color: #0282F9;
       display: flex;
       align-items: center;
       ul{
-        width: 1100px;
+        width: 1050px;
         margin: 0 auto;
         display: flex;
         gap: 2em;
@@ -65,6 +65,7 @@ export default {
           display: flex;
           align-items: center;
           font-size: .6em;
+          white-space: nowrap;
           .shop{
             width: 24%;
             padding-right: .5em;
@@ -72,6 +73,7 @@ export default {
           .visa{
             width: 14%;
             padding-right: .5em;
+            margin-left: 3em;
           }
           h3{
             color: white;

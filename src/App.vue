@@ -5,6 +5,8 @@
     <MainPage />
 
     <FooterPage />
+
+    <ArticlePage />
   </div>
 </template>
 
@@ -15,11 +17,14 @@ import MainPage from '@/components/MainPage.vue';
 
 import FooterPage from '@/components/FooterPage.vue';
 
+import ArticlePage from '@/components/ArticlePage.vue';
+
 export default {
   components: {
     HeaderPage,
     MainPage,
     FooterPage,
+    ArticlePage,
   },
 };
 </script>
